@@ -7,6 +7,13 @@ and this project adheres to [Semantic Versioning](http://semver.org).
 
 ## [Unreleased]
 
+### Fixed
+
+- `api`
+  - Only unregister an autobahn registration if there is actually an
+    registration registered.
+  - Reset the `lastChunk` after it is used.
+
 ## [v5.1.0] - 2019-09-27
 
 ### Added
